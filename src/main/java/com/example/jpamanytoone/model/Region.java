@@ -44,4 +44,11 @@ public class Region {
     public void setHref(String href) {
         this.href = href;
     }
+    public Set<Kommune> getKommuner() {
+        return kommuner;
+    }
+
+    public void setKommuner(Set<Kommune> kommuner) {
+        this.kommuner = kommuner;
+    }
 }
